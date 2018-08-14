@@ -1,0 +1,89 @@
+
+Please submit a bug report with steps to reproduce this fault, and any error messages that follow (in their entirety). Thanks.
+Exception: EXCEPTION_ACCESS_VIOLATION at 0x684eb7bc -- dmumps_454_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+while loading C:\Users\arbenede\projects\Frequency_Domain_ToF\julia\test_IPopt.jl, in expression starting on line 34
+dmumps_454_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+dmumps_559_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+dmumps_203_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+dmumps_26_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+dmumps_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+dmumps_f77_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+dmumps_c at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libcoinmumps-1.dll (unknown line)
+ZN5Ipopt20MumpsSolverInterface21SymbolicFactorizationEv at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt20MumpsSolverInterface10MultiSolveEbPKiS2_iPdbi at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt16TSymLinearSolver10MultiSolveERKNS_9SymMatrixERSt6vectorINS_8SmartPtrIKNS_6VectorEEESaIS8_EERS4_INS5_IS6_EESaISC_EEbi at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt18StdAugSystemSolver10MultiSolveEPKNS_9SymMatrixEdPKNS_6VectorEdS6_dPKNS_6MatrixES6_dS9_S6_dRSt6vectorINS_8SmartPtrIS5_EESaISC_EESF_SF_SF_RSA_INSB_IS4_EESaISG_EESJ_SJ_SJ_bi at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt15AugSystemSolver5SolveEPKNS_9SymMatrixEdPKNS_6VectorEdS6_dPKNS_6MatrixES6_dS9_S6_dRS5_SA_SA_SA_RS4_SB_SB_SB_bi at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt22LowRankAugSystemSolver5SolveEPKNS_9SymMatrixEdPKNS_6VectorEdS6_dPKNS_6MatrixES6_dS9_S6_dRS5_SA_SA_SA_RS4_SB_SB_SB_bi at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt22LeastSquareMultipliers20CalculateMultipliersERNS_6VectorES2_ at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt25DefaultIterateInitializer18least_square_multsERKNS_10JournalistERNS_8IpoptNLPERNS_9IpoptDataERNS_25IpoptCalculatedQuantitiesERKNS_8SmartPtrINS_22EqMultiplierCalculatorEEEd at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt25DefaultIterateInitializer18SetInitialIteratesEv at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt14IpoptAlgorithm18InitializeIteratesEv at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt14IpoptAlgorithm8OptimizeEb at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt16IpoptApplication13call_optimizeEv at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt16IpoptApplication11OptimizeNLPERKNS_8SmartPtrINS_3NLPEEERNS1_INS_16AlgorithmBuilderEEE at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt16IpoptApplication11OptimizeNLPERKNS_8SmartPtrINS_3NLPEEE at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+ZN5Ipopt16IpoptApplication12OptimizeTNLPERKNS_8SmartPtrINS_4TNLPEEE at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+IpoptSolve at C:\Users\arbenede\.julia\v0.6\Ipopt\deps\usr\bin\libipopt-1.dll (unknown line)
+solveProblem at C:\Users\arbenede\.julia\v0.6\Ipopt\src\Ipopt.jl:322
+optimize! at C:\Users\arbenede\.julia\v0.6\Ipopt\src\MPBWrapper.jl:120
+unknown function (ip: 000000000E9C2996)
+jl_call_fptr_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:339 [inlined]
+jl_call_method_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:358 [inlined]
+jl_apply_generic at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:1903
+#solvenlp#165 at C:\Users\arbenede\.julia\v0.6\JuMP\src\nlp.jl:1271
+unknown function (ip: 000000000E9C2389)
+jl_call_fptr_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:339 [inlined]
+jl_call_method_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:358 [inlined]
+jl_apply_generic at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:1903
+#solvenlp at .\<missing>:0
+#solve#116 at C:\Users\arbenede\.julia\v0.6\JuMP\src\solvers.jl:172
+unknown function (ip: 000000000E97E410)
+jl_call_fptr_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:339 [inlined]
+jl_call_method_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:358 [inlined]
+jl_apply_generic at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:1903 [inlined]
+jl_apply at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia.h:1424 [inlined]
+jl_invoke at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:51
+solve at C:\Users\arbenede\.julia\v0.6\JuMP\src\solvers.jl:150
+unknown function (ip: 000000000E97C4A6)
+jl_call_fptr_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:339 [inlined]
+jl_call_method_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:358 [inlined]
+jl_apply_generic at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:1903
+do_call at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\interpreter.c:75
+eval at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\interpreter.c:242
+jl_interpret_toplevel_expr at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\interpreter.c:34
+jl_toplevel_eval_flex at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\toplevel.c:577
+jl_parse_eval_all at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\ast.c:873
+jl_load at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\toplevel.c:616 [inlined]
+jl_load_ at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\toplevel.c:623
+include_from_node1 at .\loading.jl:576
+unknown function (ip: 0000000006F7AF91)
+jl_call_fptr_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:339 [inlined]
+jl_call_method_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:358 [inlined]
+jl_apply_generic at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:1903
+include at .\sysimg.jl:14
+unknown function (ip: 0000000006DD3551)
+jl_call_fptr_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:339 [inlined]
+jl_call_method_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:358 [inlined]
+jl_apply_generic at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:1903
+process_options at .\client.jl:305
+_start at .\client.jl:371
+unknown function (ip: 0000000006F8B81E)
+jl_call_fptr_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:339 [inlined]
+jl_call_method_internal at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\julia_internal.h:358 [inlined]
+jl_apply_generic at /home/Administrator/buildbot/worker/package_win64/build/src/home/Administrator/buildbot/worker/package_win64/build/src\gf.c:1903
+jl_apply at /home/Administrator/buildbot/worker/package_win64/build/src\julia.h:1424 [inlined]
+true_main at /home/Administrator/buildbot/worker/package_win64/build/ui\repl.c:127
+wmain at /home/Administrator/buildbot/worker/package_win64/build/ui\repl.c:264
+__tmainCRTStartup at /usr/src/debug/mingw64-x86_64-runtime-5.0.3-1/crt\crtexe.c:329
+mainCRTStartup at /usr/src/debug/mingw64-x86_64-runtime-5.0.3-1/crt\crtexe.c:212
+BaseThreadInitThunk at C:\WINDOWS\System32\KERNEL32.DLL (unknown line)
+RtlUserThreadStart at C:\WINDOWS\SYSTEM32\ntdll.dll (unknown line)
+Allocations: 11903204 (Pool: 11900889; Big: 2315); GC: 23
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
