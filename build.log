@@ -1,0 +1,336 @@
+Making install in lib-src
+make[1]: Entering directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src'
+make[2]: Entering directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src'
+ /bin/mkdir -p '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib'
+ /bin/mkdir -p '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/include'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libcdd.la '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib'
+ /usr/bin/install -c -m 644 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src/cddstd.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src/cdd.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src/cddmp.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src/cddtypes.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src/setoper.h '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/include'
+libtool: install: /usr/bin/install -c .libs/libcdd.so.0.0.0 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcdd.so.0.0.0
+libtool: install: (cd /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib && { ln -s -f libcdd.so.0.0.0 libcdd.so.0 || { rm -f libcdd.so.0 && ln -s libcdd.so.0.0.0 libcdd.so.0; }; })
+libtool: install: (cd /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib && { ln -s -f libcdd.so.0.0.0 libcdd.so || { rm -f libcdd.so && ln -s libcdd.so.0.0.0 libcdd.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcdd.lai /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcdd.la
+libtool: install: /usr/bin/install -c .libs/libcdd.a /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcdd.a
+libtool: install: chmod 644 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcdd.a
+libtool: install: ranlib /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcdd.a
+libtool: finish: PATH="/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin:/home/arrigo/bin:/home/arrigo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Leaving directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src'
+make[1]: Leaving directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src'
+Making install in src
+make[1]: Entering directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/src'
+make[2]: Entering directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/src'
+make[2]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c scdd lcdd redcheck fourier projection adjacency allfaces testcdd1 testshoot testcdd2 testlp1 testlp2 testlp3 '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin'
+libtool: install: /usr/bin/install -c .libs/scdd /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/scdd
+libtool: install: /usr/bin/install -c .libs/lcdd /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/lcdd
+libtool: install: /usr/bin/install -c .libs/redcheck /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/redcheck
+libtool: install: /usr/bin/install -c .libs/fourier /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/fourier
+libtool: install: /usr/bin/install -c .libs/projection /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/projection
+libtool: install: /usr/bin/install -c .libs/adjacency /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/adjacency
+libtool: install: /usr/bin/install -c .libs/allfaces /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/allfaces
+libtool: install: /usr/bin/install -c .libs/testcdd1 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/testcdd1
+libtool: install: /usr/bin/install -c .libs/testshoot /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/testshoot
+libtool: install: /usr/bin/install -c .libs/testcdd2 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/testcdd2
+libtool: install: /usr/bin/install -c .libs/testlp1 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/testlp1
+libtool: install: /usr/bin/install -c .libs/testlp2 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/testlp2
+libtool: install: /usr/bin/install -c .libs/testlp3 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin/testlp3
+make[2]: Leaving directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/src'
+make[1]: Leaving directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/src'
+Making install in lib-src-gmp
+make[1]: Entering directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src-gmp'
+make[2]: Entering directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src-gmp'
+ /bin/mkdir -p '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib'
+ /bin/mkdir -p '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/include'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libcddgmp.la '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib'
+ /usr/bin/install -c -m 644 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cddstd.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cdd.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cddmp.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cddtypes.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cddstd_f.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cdd_f.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cddmp_f.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/cddtypes_f.h /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp/setoper.h '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/include'
+libtool: install: /usr/bin/install -c .libs/libcddgmp.so.0.0.0 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcddgmp.so.0.0.0
+libtool: install: (cd /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib && { ln -s -f libcddgmp.so.0.0.0 libcddgmp.so.0 || { rm -f libcddgmp.so.0 && ln -s libcddgmp.so.0.0.0 libcddgmp.so.0; }; })
+libtool: install: (cd /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib && { ln -s -f libcddgmp.so.0.0.0 libcddgmp.so || { rm -f libcddgmp.so && ln -s libcddgmp.so.0.0.0 libcddgmp.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcddgmp.lai /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcddgmp.la
+libtool: install: /usr/bin/install -c .libs/libcddgmp.a /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcddgmp.a
+libtool: install: chmod 644 /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcddgmp.a
+libtool: install: ranlib /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/libcddgmp.a
+libtool: finish: PATH="/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin:/home/arrigo/bin:/home/arrigo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Leaving directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src-gmp'
+make[1]: Leaving directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/lib-src-gmp'
+Making install in src-gmp
+make[1]: Entering directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/src-gmp'
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o scdd_gmp simplecdd.o ../lib-src-gmp/libcddgmp.la 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o lcdd_gmp lcdd.o ../lib-src-gmp/libcddgmp.la 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o redcheck_gmp redcheck.o ../lib-src-gmp/libcddgmp.la 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o projection_gmp projection.o ../lib-src-gmp/libcddgmp.la 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o allfaces_gmp allfaces.o ../lib-src-gmp/libcddgmp.la 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o fourier_gmp fourier.o ../lib-src-gmp/libcddgmp.la 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o adjacency_gmp adjacency.o ../lib-src-gmp/libcddgmp.la 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o testshoot_gmp testshoot.o ../lib-src-gmp/libcddgmp.la 
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/lcdd_gmp lcdd.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/testshoot_gmp testshoot.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/scdd_gmp simplecdd.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/projection_gmp projection.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_num'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_div'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_cmp'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_si'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_den'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_out_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_mul'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_add'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init_set_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_si'
+collect2: error: ld returned 1 exit status
+Makefile:472: recipe for target 'lcdd_gmp' failed
+make[1]: *** [lcdd_gmp] Error 1
+make[1]: *** Waiting for unfinished jobs....
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_num'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_div'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_cmp'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_si'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_den'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_out_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_mul'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_add'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init_set_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_si'
+collect2: error: ld returned 1 exit status
+Makefile:508: recipe for target 'testshoot_gmp' failed
+make[1]: *** [testshoot_gmp] Error 1
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/allfaces_gmp allfaces.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_num'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_div'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_cmp'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_si'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_den'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_out_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_mul'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_add'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init_set_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_si'
+collect2: error: ld returned 1 exit status
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/adjacency_gmp adjacency.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+Makefile:484: recipe for target 'scdd_gmp' failed
+make[1]: *** [scdd_gmp] Error 1
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/redcheck_gmp redcheck.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+libtool: link: gcc -g -O2 -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -o .libs/fourier_gmp fourier.o  -L/usr/local/lib -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib ../lib-src-gmp/.libs/libcddgmp.so -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib
+projection.o: In function `main':
+/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/src-gmp/projection.c:74: undefined reference to `__gmpq_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_num'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_div'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_cmp'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_si'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_den'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_out_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_mul'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_add'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init_set_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_si'
+collect2: error: ld returned 1 exit status
+Makefile:476: recipe for target 'projection_gmp' failed
+make[1]: *** [projection_gmp] Error 1
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_num'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_div'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_cmp'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_si'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_den'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_out_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_mul'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_add'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init_set_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_si'
+collect2: error: ld returned 1 exit status
+Makefile:464: recipe for target 'allfaces_gmp' failed
+make[1]: *** [allfaces_gmp] Error 1
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_num'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_div'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_cmp'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined referenceadjacency.o :to  In` __gmpq_set_sifunction' 
+`.main.'/:lib
+-/srchome-/gmparrigo//..libsjulia//libcddgmp.sopackages:/ CDDLibundefined/ bKo5preference/ depsto/ src`/__gmpq_initcddlib'-
+82409bb792a0be0a8d57805842a491baf504a3b4./.src/-libgmp-/srcadjacency.c-:gmp76/:. libsundefined/ libcddgmp.soreference:  toundefined  `reference__gmpq_init 'to
+ /`home__gmpq_set_den/'arrigo
+/...julia//libpackages-/srcCDDLib-/gmpbKo5p//.depslibs//srclibcddgmp.so/:cddlib -undefined82409bb792a0be0a8d57805842a491baf504a3b4 /referencesrc -togmp /`adjacency.c__gmpq_out_str:'141
+:. .undefined/ libreference- srcto- gmp`/__gmpq_clear.'libs
+/.libcddgmp.so.:/ libundefined- srcreference- gmpto/ .`libs__gmpq_mul/'libcddgmp.so
+:. .undefined/ libreference- srcto- gmp`/__gmpq_set_num.'libs
+/.libcddgmp.so.:/ libundefined- srcreference- gmpto/ .`libs__gmpq_add/'libcddgmp.so
+:. .undefined/ libreference- srcto- gmp`/__gmpz_set_ui.'libs
+/.libcddgmp.so.:/ libundefined- srcreference- gmpto/ .`libs__gmpz_init_set_str/'libcddgmp.so
+:. .undefined/ libreference- srcto- gmp`/__gmpq_div.'libs
+/.libcddgmp.so.:/ libundefined- srcreference- gmpto/ .`libs__gmpz_init/'libcddgmp.so
+:. .undefined/ libreference- srcto- gmp`/__gmpq_cmp.'libs
+/.libcddgmp.so.:/ libundefined- srcreference- gmpto/ .`libs__gmpz_set_si/'libcddgmp.so
+: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-srccollect2: error: ld returned 1 exit status
+-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_si'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_den'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_out_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_mul'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_add'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init_set_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_si'
+collect2: error: ld returned 1 exit status
+Makefile:480: recipe for target 'redcheck_gmp' failed
+make[1]: *** [redcheck_gmp] Error 1
+Makefile:460: recipe for target 'adjacency_gmp' failed
+make[1]: *** [adjacency_gmp] Error 1
+fourier.o: In function `main':
+/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/src-gmp/fourier.c:73: undefined reference to `__gmpq_init'
+/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/src-gmp/fourier.c:130: undefined reference to `__gmpq_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_num'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_div'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_cmp'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_get_d'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_canonicalize'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_sub'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_ui'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_clear'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_si'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_set_den'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_out_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_mul'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpq_add'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init_set_str'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_init'
+../lib-src-gmp/.libs/libcddgmp.so: undefined reference to `__gmpz_set_si'
+collect2: error: ld returned 1 exit status
+Makefile:468: recipe for target 'fourier_gmp' failed
+make[1]: *** [fourier_gmp] Error 1
+make[1]: Leaving directory '/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp/src-gmp'
+Makefile:381: recipe for target 'install-recursive' failed
+make: *** [install-recursive] Error 1
+[ Info: Attempting to create directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/downloads
+[ Info: Directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/downloads already exists
+[ Info: Downloading file https://github.com/JuliaPolyhedra/cddlib/archive/82409bb792a0be0a8d57805842a491baf504a3b4.zip
+[ Info: Done downloading file https://github.com/JuliaPolyhedra/cddlib/archive/82409bb792a0be0a8d57805842a491baf504a3b4.zip
+[ Info: Attempting to create directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src
+[ Info: Directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src already exists
+[ Info: Attempting to create directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps
+[ Info: Directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps already exists
+[ Info: Path /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4 already exists
+[ Info: Attempting to create directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp
+[ Info: Directory /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp already exists
+[ Info: Changing directory to /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp
+[ Info: Changing directory to /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp
+[ Info: Changing directory to /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/builds/libcddgmp
+ERROR: LoadError: failed process: Process(setenv(`make -j8 install`,["PATH=/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/bin:/home/arrigo/bin:/home/arrigo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "SESSION=ubuntu", "DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path", "QT_ACCESSIBILITY=1", "UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1001/938", "UPSTART_JOB=unity7", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-qPu1xr0Bkb", "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0", "XDG_SESSION_DESKTOP=ubuntu", "XDG_SESSION_TYPE=x11", "USER=arrigo", "XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg", "QT_IM_MODULE=ibus", "LESSCLOSE=/usr/bin/lesspipe %s %s", "SESSIONTYPE=gnome-session", "INSTANCE=", "GDMSESSION=ubuntu", "CLUTTER_IM_MODULE=xim", "XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop", "LESSOPEN=| /usr/bin/lesspipe %s", "SHELL=/bin/bash", "XDG_SEAT=seat0", "XAUTHORITY=/home/arrigo/.Xauthority", "XDG_MENU_PREFIX=gnome-", "GTK_MODULES=gail:atk-bridge:unity-gtk-module", "GNOME_KEYRING_PID=", "GTK_IM_MODULE=ibus", "SESSION_MANAGER=local/snuc-NUC7I3BNH:@/tmp/.ICE-unix/1180,unix/snuc-NUC7I3BNH:/tmp/.ICE-unix/1180", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "XMODIFIERS=@im=ibus", "TERM=xterm-256color", "HOME=/home/arrigo", "VTE_VERSION=4205", "UNITY_DEFAULT_PROFILE=unity", "GTK2_MODULES=overlay-scrollbar", "COMPIZ_CONFIG_PROFILE=ubuntu", "IM_CONFIG_PHASE=1", "UPSTART_INSTANCE=", "XDG_CURRENT_DESKTOP=Unity", "LANG=en_US.UTF-8", "SHLVL=1", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "LOGNAME=arrigo", "XDG_RUNTIME_DIR=/run/user/1001", "SSH_AUTH_SOCK=/run/user/1001/keyring/ssh", "DESKTOP_SESSION=ubuntu", "GDM_LANG=en_US", "OLDPWD=/home/arrigo", "_=/usr/local/julia-1.0.2/bin/julia", "GPG_AGENT_INFO=/home/arrigo/.gnupg/S.gpg-agent:0:1", "PWD=/home/arrigo", "DISPLAY=:0", "UPSTART_EVENTS=xsession started", "COMPIZ_BIN_PATH=/usr/bin/", "LANGUAGE=en_US", "XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/arrigo", "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0", "UNITY_HAS_3D_SUPPORT=true", "CPPFLAGS= -I/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/include -I/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src -I/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/src/cddlib-82409bb792a0be0a8d57805842a491baf504a3b4/lib-src-gmp", "LDFLAGS= -L/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib -Wl,-rpath -Wl,/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib", "XDG_VTNR=7", "WINDOWID=67112679", "MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path", "XDG_SESSION_ID=c1", "PKG_CONFIG_PATH=/home/arrigo/.julia/packages/CDDLib/bKo5p/deps/usr/lib/pkgconfig", "JULIA_LOAD_PATH=@:/tmp/tmpnFLlJT", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "QT4_IM_MODULE=xim", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:", "GNOME_KEYRING_CONTROL=", "JOB=unity-settings-daemon", "OPENBLAS_MAIN_FREE=1"]), ProcessExited(2)) [2]
+Stacktrace:
+ [1] error(::String, ::Base.Process, ::String, ::Int64, ::String) at ./error.jl:42
+ [2] pipeline_error at ./process.jl:705 [inlined]
+ [3] #run#504(::Bool, ::Function, ::Cmd) at ./process.jl:663
+ [4] run(::Cmd) at ./process.jl:661
+ [5] macro expansion at ./logging.jl:306 [inlined]
+ [6] run(::BinDeps.SynchronousStepCollection) at /home/arrigo/.julia/packages/BinDeps/ZEval/src/BinDeps.jl:518
+ [7] macro expansion at ./logging.jl:306 [inlined]
+ [8] run(::BinDeps.SynchronousStepCollection) at /home/arrigo/.julia/packages/BinDeps/ZEval/src/BinDeps.jl:518
+ [9] satisfy!(::BinDeps.LibraryDependency, ::Array{DataType,1}) at /home/arrigo/.julia/packages/BinDeps/ZEval/src/dependencies.jl:944
+ [10] satisfy!(::BinDeps.LibraryDependency) at /home/arrigo/.julia/packages/BinDeps/ZEval/src/dependencies.jl:922
+ [11] top-level scope at /home/arrigo/.julia/packages/BinDeps/ZEval/src/dependencies.jl:977
+ [12] include at ./boot.jl:317 [inlined]
+ [13] include_relative(::Module, ::String) at ./loading.jl:1044
+ [14] include(::Module, ::String) at ./sysimg.jl:29
+ [15] include(::String) at ./client.jl:392
+ [16] top-level scope at none:0
+in expression starting at /home/arrigo/.julia/packages/CDDLib/bKo5p/deps/build.jl:90
+Warning: The compilation of cddlib requires the header gmp.h provided by the package libgmp-dev.
+If the compilation fails, please install it as follows:
+$ sudo apt-get install libgmp-dev
